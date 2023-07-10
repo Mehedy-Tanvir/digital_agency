@@ -135,6 +135,7 @@ ol {
   height: 200px;
   text-align: center;
   margin: 10px;
+  border-radius: 5px;
 }
 .box h3 {
   color: black;
@@ -187,4 +188,79 @@ h3 {
   border-radius: 20px;
   border: none;
   margin-left: 20px;
+}
+/* blog section styles */
+.blog-section {
+  padding-bottom: 50px;
+}
+.blog-section-title {
+  text-align: center;
+  margin-top: 50px;
+}
+.blog-description {
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+/* card section style */
+.card-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+.card {
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+.card-title {
+  padding: 20px 10px;
+}
+.card-description {
+  padding: 20px 10px;
+}
+.card-img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+/* footer section style */
+footer {
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+}
+.color-white {
+  color: white;
+}
+.brand-description {
+  max-width: 200px;
+}
+footer div li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+footer div h4 {
+  margin-bottom: 10px;
+}
+.brand-description {
+  margin-top: 10px;
+}
+.social-links {
+  margin-top: 10px;
+}
+.social-links img {
+  padding-left: 10px;
+}
+hr {
+  width: 70%;
+  margin: 50px auto 20px;
+}
+footer h3 {
+  text-align: center;
 }
