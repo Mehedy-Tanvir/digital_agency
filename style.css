@@ -112,7 +112,7 @@ ol {
   padding-right: 50px;
   border-right: 2px solid red;
 }
-.service-profile h3 {
+.service-profile > h3 {
   color: white;
 }
 .service-footer-btn {
@@ -136,7 +136,55 @@ ol {
   text-align: center;
   margin: 10px;
 }
+.box h3 {
+  color: black;
+}
 .box img {
   margin: 40px auto 10px;
   width: 100px;
+}
+/* appoint section styles */
+.appointment {
+  display: flex;
+  justify-content: center;
+}
+.appointment-container {
+  background-color: red;
+  width: 68vw;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  margin-top: -50px;
+}
+.phone {
+  display: flex;
+  gap: 10px;
+  padding: 20px 20px;
+  border-right: 2px solid wheat;
+}
+.phone img {
+  width: 50px;
+}
+.phone > h4,
+h3 {
+  color: white;
+}
+.appointment-description {
+  color: white;
+  max-width: 400px;
+  padding: 20px 20px;
+}
+.appointment-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-appointment {
+  background-color: aliceblue;
+  color: grey;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 20px;
 }
