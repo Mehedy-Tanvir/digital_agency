@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+/* header section styles */
 nav {
   display: flex;
   justify-content: space-around;
@@ -15,4 +16,53 @@ ul {
   gap: 15px;
   font-size: 17px;
   font-style: italic;
+}
+/* banner section styles */
+.banner-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  background-image: url("./asset/image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+.banner-header {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+}
+.banner-description {
+  max-width: 500px;
+  margin: 10px auto;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.primary-color {
+  color: red;
+}
+.btn-primary {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.btn-secondary {
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.banner-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
