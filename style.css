@@ -66,3 +66,77 @@ ul {
   justify-content: center;
   gap: 20px;
 }
+/* service section styles */
+.service-container {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-service {
+  background-color: aliceblue;
+  color: grey;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 150px;
+}
+.service-header {
+  color: white;
+  margin-top: 15px;
+}
+.service-description {
+  color: white;
+  max-width: 400px;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.service-profile > img {
+  width: 70px;
+  border-radius: 50%;
+}
+ol {
+  margin-top: 30px;
+  color: white;
+}
+.service-footer {
+  display: flex;
+}
+.service-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 30px 150px 0;
+}
+.author {
+  padding-right: 50px;
+  border-right: 2px solid red;
+}
+.service-profile h3 {
+  color: white;
+}
+.service-footer-btn {
+  background-color: aliceblue;
+  color: red;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+}
+.service-boxes {
+  padding-top: 50px;
+}
+.row {
+  display: flex;
+}
+.box {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+}
+.box img {
+  margin: 40px auto 10px;
+  width: 100px;
+}
